@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1    &kp F2                &kp F3                &kp F4        &kp F5             &kp F6             &kp F7     &kp F8         &kp F9       &kp F10    &kp F11          &kp F12
-&kp CAPS  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LC(T)        &kp LC(W)
-&kp LALT  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4       &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PRINTSCREEN  &kp ENTER
-                                                      &kp LEFT_WIN  &trans             &kp LEFT_SHIFT     &kp SPACE  &kp ESCAPE     &kp RCTRL
+&kp F1          &kp F2                &kp F3                &kp F4        &kp F5             &kp F6             &kp F7     &kp F8         &kp F9       &kp F10    &kp F11          &kp F12
+&kp CAPS        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LC(T)        &kp LC(W)
+&kp LEFT_SHIFT  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4       &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PRINTSCREEN  &kp ENTER
+                                                            &kp LEFT_WIN  &trans             &kp LEFT_SHIFT     &kp SPACE  &kp ESCAPE     &kp RCTRL
             >;
         };
 
@@ -60,7 +60,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL        &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET         &kp AMPS           &kp ASTRK       &kp LPAR         &kp RPAR  &kp DELETE
+&kp TAB    &kp EXCL        &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET         &kp AMPS           &kp ASTRK       &kp LPAR         &kp RPAR  &kp BACKSPACE
 &kp GRAVE  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6      &kp N7             &kp N8          &kp N9           &kp N0    &kp TILDE
 &kp LSHFT  &kp UNDERSCORE  &kp MINUS     &kp EQUAL     &kp PLUS      &kp BSLH          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp ESC
                                          &kp LGUI      &kp LEFT_ALT  &kp LEFT_SHIFT    &kp SPACE         &trans             &kp RCTRL
